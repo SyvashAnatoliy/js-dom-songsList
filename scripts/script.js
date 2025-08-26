@@ -34,6 +34,7 @@ var playList = [
 ];
 
 var ul = document.createElement('ul');
+ul.style = "list-style-type: none; padding: 10px; background: #f0f0f0; width: 300px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);";
 document.body.appendChild(ul);
 
 for (var i = 0; i < playList.length; i++) {
